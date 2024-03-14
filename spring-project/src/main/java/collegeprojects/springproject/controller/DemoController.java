@@ -9,4 +9,9 @@ public class DemoController {
     public String HelloWorld(){
         return "Hello World!";
     }
+
+    @GetMapping("/hello-my-world")
+    public String HelloMyFriend(){
+        return "Hello my friend";
+    }
 }
